@@ -184,12 +184,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_RIL_VARIANT := caf
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2018-10-01
-
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # Vendor init

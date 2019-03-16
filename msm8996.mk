@@ -343,6 +343,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    thelephony-ext
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1

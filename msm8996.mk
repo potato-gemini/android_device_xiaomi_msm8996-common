@@ -344,7 +344,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
-    thelephony-ext
+    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
